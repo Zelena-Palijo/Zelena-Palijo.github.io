@@ -13,7 +13,7 @@ showSlides(slideIndex);
 
 //changes the slide when the L or R arrows are clicked
 function plusSlides(n){
-  showSlides(slideIndex+=n);
+  showSlides(slideIndex += n);
 }
 
 //changes the slide when the dots are clikced
@@ -32,7 +32,7 @@ function showSlides(n){
   for(i=0;i<dots.length;i++){
     dots[i].className=dots[i].className.replace(" active",""); 
   }
-  slides[slideIndex-1].style.display="block";
+  slides[slideIndex - 1].style.display="block";
   dots[slideIndex-1].className += " active";
 }
 
