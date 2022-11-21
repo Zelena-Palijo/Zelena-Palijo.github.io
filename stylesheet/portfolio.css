@@ -12,7 +12,7 @@ body {
   transition:3s opacity; /*3sec fade in*/
   letter-spacing:.2vw; /*vw relative measurement, 1vw is equal to 1% of the viewport width*/
   font-family: "Audiowide", sans-serif;
-  font-size:1vw;
+  font-size:0.5vw;
   overflow-x:hidden; /*prevents horiz scroll bar from appearing when quote hover*/
   user-select:none; /*prevents text on the webage from being highlighted*/
 }
@@ -322,7 +322,7 @@ footer {
 .Column_1 {
   float: left;
   width: 50%; /* This ensures the column takes up half of the page width */
-  padding-bottom: 20vh;
+  /* padding-bottom: 20vh; */
   height: 400px; /* This sets the height of the column to 400px -  this may need to be adjusted depending on the text you enter */
   background-color: #f2f2f2; /* L columb bg color */
 }
@@ -330,7 +330,7 @@ footer {
 .Column_2 {
   float: left;
   width: 50%;
-  padding-bottom: 20vh;
+  /* padding-bottom: 20vh; */
   height: 400px;
   background-color: #4d4d4d;
 }
