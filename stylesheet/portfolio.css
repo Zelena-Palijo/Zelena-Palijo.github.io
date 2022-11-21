@@ -17,7 +17,7 @@ body {
   user-select:none; /*prevents text on the webage from being highlighted*/
 }
 /* contributes to the fade effect for the page that occurs when the page is loaded*/
-body.fade-out{
+body.fade-in{
   opacity:.1; /*sets opacity level at start of page load*/
 }
 
@@ -122,10 +122,10 @@ footer {
 }
 
 /* moveNav animation effect for moving the nav bar in from the left of the screen */
-@keyframes moveNav {
+/*@keyframes moveNav {
   from {left: -100vw;} /* The navbar is starting off screen to the left */
-  to {left: 0vw;} /* This moves the navbar into place on the screen */
-}
+  /*to {left: 0vw;} /* This moves the navbar into place on the screen 
+} */
 
 /* Navbar links */
 .Navbar a {
