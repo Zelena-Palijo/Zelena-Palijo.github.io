@@ -322,7 +322,7 @@ footer {
 .Column_1 {
   float: left;
   width: 50%; /* This ensures the column takes up half of the page width */
-  /* padding: 1.6%; */
+  padding-bottom: 20vh;
   height: 400px; /* This sets the height of the column to 400px -  this may need to be adjusted depending on the text you enter */
   background-color: #f2f2f2; /* L columb bg color */
 }
@@ -330,7 +330,7 @@ footer {
 .Column_2 {
   float: left;
   width: 50%;
-  /* padding: 1.6%; */
+  padding-bottom: 20vh;
   height: 400px;
   background-color: #4d4d4d;
 }
