@@ -11,7 +11,7 @@ body {
   opacity:1; /*affect page loading fade in effect*/
   transition:3s opacity; /*3sec fade in*/
   letter-spacing:.2vw; /*vw relative measurement, 1vw is equal to 1% of the viewport width*/
-  font-family:Avant Garde, Helvetica;
+  font-family: "Audiowide", sans-serif;
   font-size:1.5vw;
   overflow-x:hidden; /*prevents horiz scroll bar from appearing when quote hover*/
   user-select:none; /*prevents text on the webage from being highlighted*/
@@ -112,7 +112,7 @@ footer {
 .Navbar {
   overflow: hidden; /* This ensures that any content that overflows beyond the boundary of our nav bar is not displayed */
   background-color: rgba(140, 129, 129, 0.45); /* This colors the navbar grey */
-  opacity: 0.5 /* Makes the navbar less opaque */
+  opacity: 0.5; /* Makes the navbar less opaque */
   position: fixed; /* This keeps the navbar at the top of the screen as we scroll */
   top: 0; /* This ensures no space is displayed above the navbar */
   width: 100%; /* This makes the navbar span the entire width of the page */
