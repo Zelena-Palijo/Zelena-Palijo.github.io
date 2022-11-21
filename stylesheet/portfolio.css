@@ -155,7 +155,7 @@ footer {
   color: black; /* This defines the font color that will display when navbar a elements are hovered over */
   font-weight: bold; /* This makes the text on the navbar bold when hovered over */
   cursor: pointer;
-  transition:0.5s ease-in; /*crates a smoth transtion for the hover trigger*/
+  /*transition:0.5s ease-in; creates a smooth transtion for the hover trigger*/
 }
 
 /* Navbar home button */
